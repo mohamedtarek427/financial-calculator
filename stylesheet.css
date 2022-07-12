@@ -1,0 +1,64 @@
+.container {
+    position: absolute;
+    left : 40%;
+    top : 20%;
+    width  : 300px;
+    height: 100px;
+    color : rgb(97, 102, 143);
+    font-weight: bold;
+}
+.container h1 , h2 {
+    color: rgb(128, 89, 163);
+    font-size:20px;
+    justify-content: center;
+    position: relative;
+    text-align : center
+}
+.container form {
+    position: absolute;
+}
+
+.container form input {
+    position: relative;
+    left : 100px;
+    top: -35px;
+}
+.container h2 {
+    top : 280px;
+}
+.container .brands {
+    position: relative;
+    top:290px;
+    display : flex;
+    justify-content:space-between;
+    gap: 8px;
+}
+.container .brands button {
+    width : 280px;
+    height : 35px;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 8px ;
+}
+.container .brands .left-icon {
+    position: absolute;
+    right : 312px;
+    top: 10px
+}
+.container .brands .left-icon {
+    position: absolute;
+    right : 312px;
+    top: 10px
+}
+.container .brands .right-icon {
+    position: absolute;
+    left : 312px;
+    top: 10px
+}
+.container .rewards .brex  { 
+    position: absolute;
+    top : 425px;
+    left : 20px;
+    font-size: 15px;
+    display: flex;
+    gap : 100px
+}
