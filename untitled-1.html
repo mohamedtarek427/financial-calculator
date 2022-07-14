@@ -40,25 +40,37 @@
                         <div class="left-icon">
                     <i class="fa-solid fa-circle-chevron-left"></i>
                         </div>
-                    <button class="brex">Brex</button>
-                    <button class="stripe">Stripe</button>
-                    <button class="amex">Amex</button>
+                    <button onclick={textHandlerBrex()} class="brex">Brex</button>
+                    <button onclick={textHandlerStripe()} class="stripe">Stripe</button>
+                    <button onclick={textHandlerAmex()} class="amex">Amex</button>
                         <div class="right-icon">
                     <i class="fa-solid fa-circle-chevron-right"></i>   
                         </div>             
                     <div>
                 </div>
             </div>
+            <img src="visa.jpg" alt="visa">
             <div class="rewards">
             <div class="brandReward">
-                <p>Amex Business Card</p>
-                <p>Unlimited Rewards</p>
-                <p>LIFETIME REWARD</p>
+                <p class="brand-name"></p>
+            <p>Unlimited Rewards</p>
+            <p>LIFETIME REWARD</p>
         </div>
-            <div class="rewardValues">
-                <p>200</p>
-                <p>200</p>
-                <p>200</p>
+        <div class="rewardValues">
+                <p class="brandRewardValue"></p>
+                <p class="unlimitedRewards"></p>
+                <p class="lifetimeRewards"></p>
+            </div>
+            <div class="animated-progress brand-reward">
+                <span data-progress="100">0</span>
+            </div>
+
+            <div class="animated-progress unlimited-reward">
+                <span data-progress="100">0</span>
+            </div>
+
+            <div class="animated-progress lifetime-reward">
+                <span data-progress="100">0</span>
             </div>
     </body>
     <script src="main.js"></script>
