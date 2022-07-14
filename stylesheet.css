@@ -59,8 +59,44 @@
     top: 450px;
 }
 .container .rewards .rewardValues {
+    position: absolute;
+    left : 300px;
+    bottom : 100px
+}
+
+.animated-progress {
+    width: 105px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid ;
+    overflow: hidden;
+    top: -100px;
+    left: 160px;
     position: relative;
-    left : 250px;
-    top : -105px
     
+}
+.animated-progress span {
+    height: 100%;
+    display: block;
+    width: 100%;
+    color: rgb(255, 251, 251);
+    line-height: 30px;
+    position: relative;
+    text-align: end;
+    padding-right: 5px;
+  }
+  .brand-reward , .unlimited-reward span {
+    background-color: rgb(188, 209, 241);
+  }
+  .lifetime-reward {
+    background-color: rgb(4, 113, 222);
+  }
+img {
+    width: 156px;
+    height: 92px;
+    position: absolute;
+    top: 433px;
+    left: -161px;
+    transform: rotate(-8deg);
 }
